@@ -2,17 +2,18 @@
   {
     "Platform": "CodeForces",
     "Profile": "https://codeforces.com/profile/Bagha_00",
-    "Text": "Expert (max. rating 1451)"
+    "Text": "Specialist (max. rating 1451)"
   },
+   {
+    "Platform": "LeetCode",
+    "Profile": "https://leetcode.com/__akshansh7/",
+    "Text": "Knight (max. rating 1973)"
+  },
+  
   {
     "Platform": "Kaggle",
     "Profile": "https://www.kaggle.com/akshansh1111",
     "Text": "Expert"
-  },
-  {
-    "Platform": "LeetCode",
-    "Profile": "https://leetcode.com/__akshansh7/",
-    "Text": "Knight (max. rating 1973)"
   }
-  
+ 
 ]
