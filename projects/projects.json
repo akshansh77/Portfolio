@@ -1,0 +1,42 @@
+[ 
+    {
+        "id": 1,
+        "name": "HEALTH MONITORING SYSTEM USING ARDUINO UNO",
+        "desc": "A health monitoring system is a system in which a person can measure heartbeat, body temperature, and demonstrate all details in mobile app",
+        "image": "../assests/images/projects/health.jpg",
+        "links": {
+            "view": "https://drive.google.com/file/d/1i15rRCJ9hQAj9hm7fceQvoGw7_Ezss0k/view",
+            "code": "../404.html"
+        }
+    },
+    {
+        "id": 2,
+        "name": "ONLINE FOOD ORDERING SYSTEM",
+        "desc": "An online food ordering system or an online ordering platform is a place where customers can directly order from the restaurant instead of going through a third-party food delivery business.",
+        "image": "../assests/images/projects/project1.png",
+        "links": {
+            "view": "../404.html",
+            "code": "../404.html"
+        }
+    },
+    {
+        "id": 3,
+        "name": "FAKE NEWS PREDICTOR",
+        "desc": "This project employs deep learning techniques, including transfer learning with pre-trained language models like BERT.",
+        "image": "../assests/images/projects/project.png",
+        "links": {
+            "view": "../404.html",
+            "code": "https://github.com/akshansh77/Fake-News-Detection"
+        }
+    },
+    {
+        "id": 4,
+        "name": "STUDENT MANAGEMENT SYSTEM",
+        "desc": "A fully fledged web application made using MERN Stack to book tour, review tour, rate tour, advanced authentication features and many more.",
+        "image": "../assests/images/projects/tour.jpg",
+        "links": {
+            "view": "https://tour-booking-website.netlify.app/",
+            "code": "https://github.com/akshansh77/Tour-Website"
+        }
+    }
+]

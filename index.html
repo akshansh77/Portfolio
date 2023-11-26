@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords"content="Akshansh Singh" />
+  <meta name="description" content="Welcome to Akshansh's Portfolio. Passionate Web Developer." />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assests/css/style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Favicon -->
+  <link id='favicon' rel="shortcut icon" href="./assests/images/cmsoon.png" type="image/x-png">
+  <title>Portfolio</title>
+
+  <!-- emailjs script -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("6gNZZvz9sidtICi8L");
+    })();
+  </script>
+
+</head>
+
+<body oncontextmenu="return false">
+
+  <!-- pre loader -->
+  <div class="loader-container">
+    <img draggable="false" src="./assests/images/preloader3.gif" alt="">
+  </div>
+
+
+  <!-- navbar starts -->
+  <header>
+    <a href="/404.html" class="logo"><i class="fas fa-code"></i>AKSHANSH SINGH</a>
+
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- navbar ends -->
+
+  <!-- hero section starts -->
+  <section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+      <h3>Hi there,<br /> I'm Akshansh<span>Singh</span></h3>
+      <p>i am into <span class="typing-text"></span></p>
+      <a href="#about" class="btn"><span>About Me</span>
+        <i class="fas fa-arrow-circle-down"></i>
+      </a>
+      <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" href="https://www.linkedin.com/in/akshansh-singh-030b79257/" target="_blank"><i
+                class="fab fa-linkedin"></i></a></li>
+          <li><a class="github" href="https://github.com/akshansh77" target="_blank"><i
+                class="fab fa-github"></i></a></li>
+          <li><a class="twitter" href="https://x.com/akssssssh?t=b-EDBT9XyHhzcJhVNYuBgw&s=08" target="_blank"><i
+                class="fab fa-twitter"></i></a></li>
+          <li><a class="instagram" href="https://www.instagram.com/akshansh_7/"><i class="fab fa-instagram"
+                target="_blank"></i></a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="image">
+      <img draggable="false" class="tilt" src="./assests/images/hero3.gif" alt="">
+    </div>
+  </section>
+  <!-- hero section ends -->
+
+
+  <!-- about section starts -->
+  <section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+
+    <div class="row">
+
+      <div class="image">
+        <img draggable="false" class="tilt" src="./assests/images/me.jpeg" alt="">
+      </div>
+      <div class="content">
+        <h3>I'm Akshansh Singh</h3>
+        <span class="tag">Passionate Web Developer | Competitive Programmer</span>
+        <p id="about-text"></p>
+        <h3 class="tag">My Coding Profiles:</h3>
+        <div class="box-container">
+          <div class="box">
+            <p id="coding-text">
+            </p>
+          </div>
+        </div>
+
+        <div class="resumebtn">
+          <a href="https://drive.google.com/file/d/10_LoZxTfz_B-X9243wVh74HM7TCMa8JP/view?usp=sharing" class="btn" target="_blank"><span>Resume</span>
+            <i class="fas fa-chevron-right"></i>
+          </a>
+      </div>
+    </div>
+  </section>
+  <!-- about section ends -->
+
+  <!-- skills section starts -->
+  <section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Technical Skills<!--- <span>Abilities</span> ---></h2>
+
+    <div class="container">
+      <div class="row" id="skillsContainer">
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- skills section ends -->
+
+  <!-- education section starts -->
+  <section class="education" id="education">
+
+    <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <!-- <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p> -->
+
+    <div class="box-container">
+
+      <div class="box">
+        <div class="image">
+          <a href="https://academics.mnnit.ac.in/new/" target="_blank">
+            <img draggable="false" src="./assests/images/educat/collage.jpg" alt="">
+
+        </div>
+        <div class="content">
+          <h3>B.Tech in Data science and artificial intelligence Engg.</h3>
+          <p>IIIT Naya Raipur </p>
+          <p>Pre-Final Year </p>
+          <p>CGPA: 7.9 </p>
+          <h4>2021-2025 | Pursuing</h4>
+          </a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+
+            <img draggable="false" src="./assests/images/educat/school.jpg" alt="" width="5" height="6">
+        </div>
+        <div class="content">
+          <h3>Intermediate</h3>
+          <p> Intermediate | 81.4% | Ne Railway Sr. Secondary School, Gorakhpur</p>
+          <!-- </a> -->
+          <h4>2019-2020 | Completed</h4>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- education section ends -->
+
+
+  <!-- work project section starts -->
+  <section class="work" id="projects">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+    <div class="box-container">
+      <div class="box tilt">
+        <img draggable="false" src="./assests/images/projects/health.jpg" alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>HEALTH MONITORING SYSTEM USING ARDUINO UNO</h3>
+          </div>
+          <div class="desc">
+            <p>A health monitoring system is a system in which a person can measure heartbeat, body temperature, and demonstrate all details in mobile app</p>
+            <div class="btns">
+              <a href="https://drive.google.com/file/d/1i15rRCJ9hQAj9hm7fceQvoGw7_Ezss0k/view" class="btn" target="_blank"><i
+                  class="fas fa-eye"></i> View</a>
+              <a href="/404.html" class="btn" target="_blank"><i
+                  class="fas fa-code"></i> Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box tilt">
+        <img draggable="false" src="./assests/images/projects/project1.png" alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>ONLINE FOOD ORDERING SYSTEM</h3>
+          </div>
+          <div class="desc">
+            <p>An online food ordering system or an online ordering platform is a place where customers can directly order from
+              the restaurant instead of going through a third-party food delivery business.
+              </p>
+            <div class="btns">
+              <a href="/404.html" class="btn" target="_blank"><i
+                  class="fas fa-eye"></i> View</a>
+              <a href="/404.html" class="btn" target="_blank">Code <i
+                  class="fas fa-code"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="box tilt">
+        <img draggable="false" src="./assests/images/projects/project.png" alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>FAKE NEWS PREDICTOR</h3>
+          </div>
+          <div class="desc">
+            <p>This project employs deep learning techniques, including transfer learning with pre-trained language models like
+              BERT, to develop a robust fake news detection model, along with a user-friendly web application and a browser
+              extension, to combat misinformation effectively.</p>
+            <div class="btns">
+              <a href="/404.html" class="btn" target="_blank"><i class="fas fa-eye"></i>
+                View</a>
+              <a href="https://github.com/akshansh77/Fake-News-Detection" class="btn" target="_blank">Code <i
+                  class="fas fa-code"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box tilt">
+        <img draggable="false" src="./assests/images/projects/tour.jpg" alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>TOUR BOOKING WEBSITE</h3>
+          </div>
+          <div class="desc">
+            <p>A fully fledged web application made using MERN Stack to book tour, review tour, rate tour, advanced authentication features and many more.</p>
+            <div class="btns">
+              <a href="https://tour-booking-website.netlify.app/" class="btn" target="_blank"><i
+                  class="fas fa-eye"></i> View</a>
+              <a href="https://github.com/akshansh77/Tour-Website" class="btn" target="_blank"><i
+                  class="fas fa-code"></i> Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="viewall">
+        <a href="/projects/" class="btn"><span>View All</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+  </section>
+  <!-- work project section ends -->
+
+
+  <!-- contact section starts -->
+  <section class="contact" id="contact">
+
+    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+    <div class="container">
+      <div class="content">
+        <div class="image-box">
+          <img draggable="false" src="./assests/images/contact1.png" alt="">
+        </div>
+        <form id="contact-form">
+
+          <div class="form-group">
+            <div class="field">
+              <input type="text" name="name" placeholder="Name" required>
+              <i class='fas fa-user'></i>
+            </div>
+            <div class="field">
+              <input type="email" name="email" placeholder="Email" required>
+              <i class='fas fa-envelope'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="phone" placeholder="Phone">
+              <i class='fas fa-phone-alt'></i>
+            </div>
+            <div class="message">
+              <textarea placeholder="Message" name="message" required></textarea>
+              <i class="fas fa-comment-dots"></i>
+            </div>
+          </div>
+          <div class="button-area">
+            <button type="submit">
+              Submit <i class="fa fa-paper-plane"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- contact section ends -->
+
+
+  <!-- footer section starts -->
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Akshansh's Portfolio</h3>
+        <p>Thank you for visiting my personal portfolio website.<br/> Connect with me over socials.
+        </p>
+      </div>
+
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+        <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+        <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+        <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+        <a href="#projects"><i class="fas fa-chevron-circle-right"></i> projects</a>
+        
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>
+
+        <p> <i class="fas fa-envelope"></i> akshanshsingh7777@gmail.com</p>
+        <p> <i class="fas fa-map-marked-alt"></i>Lucknow, India</p>
+        <div class="socials">
+          <ul class="social-icons">
+            <li><a class="linkedin" href="https://www.linkedin.com/in/akshansh-singh-030b79257/" target="_blank"><i
+                  class="fab fa-linkedin"></i></a></li>
+            <li><a class="github" href="https://github.com/akshansh77" target="_blank"><i
+                  class="fab fa-github"></i></a></li>
+            <li><a class="twitter" href="https://x.com/akssssssh?t=b-EDBT9XyHhzcJhVNYuBgw&s=08" target="_blank"><i
+                  class="fab fa-twitter"></i></a></li>
+            <li><a class="instagram" href="https://www.instagram.com/akshansh_7/"><i class="fab fa-instagram"
+                  target="_blank"></i></a></li>  
+          </ul>
+        </div>
+      </div>
+    </div>
+
+   
+
+  </section>
+  <!-- footer section ends -->
+
+
+  <!-- scroll top btn -->
+  <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+  <!-- scroll back to top -->
+
+
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+  <!-- jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- typed.js cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- particle.js links -->
+  <script src="./assests/js/particles.min.js"></script>
+  <script src="./assests/js/app.js"></script>
+
+  <!-- vanilla tilt.js links -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+    integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- scroll reveal anim -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+  <script src="./assests/js/script.js"></script>
+  
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
